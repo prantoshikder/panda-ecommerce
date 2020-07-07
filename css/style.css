@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* ================ Google Fonts ================== */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+ol,
+p,
+a {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {}
+
+.button_buy_now {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: white;
+    padding: 9px 25px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+
+.backpack_heading,
+.shoes_heading {
+    font-weight: 700;
+    color: black;
+}
+
+
+/* ================ Common CSS Start ================== */
+
+
+/* ================ Common CSS End ================== */
+
+
+/* ================ Header Part Start ================== */
+
+.header_part {}
+
+.navbar {
+    padding: 15px 10px;
+}
+
+.navbar-nav {}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 20px;
+}
+
+
+/* ================ Header Part End ================== */
+
+
+/* ================ Banner Part Start ================== */
+
+.banner_part {
+    padding-top: 100px;
+}
+
+.banner_bg {
+    background-color: #fceae8;
+    border-radius: 5px;
+}
+
+.carousel-item {
+    padding: 20px 40px;
+}
+
+.banner_con {}
+
+.banner_con h1 {
+    font-weight: 600;
+    color: black;
+}
+
+.banner_con p {
+    /* color: grey; */
+}
+
+.banner_con h1.price {
+    color: #FF136F;
+}
+
+
+/* ================ Banner Part End ================== */
+
+
+/* ================ Categorise Part Star ================== */
+
+.categorise_part {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.items {}
+
+.items .item1 {
+    /* background-color: orange; */
+    background-image: linear-gradient(to right, yellow 0%, orange 100%);
+}
+
+.items .item2 {
+    /* background-color: hotpink; */
+    background-image: linear-gradient(to right, lightpink 0%, mediumvioletred 100%);
+}
+
+.items .item3 {
+    /* background-color: blue; */
+    background-image: linear-gradient(to right, aqua 0%, blue 100%);
+}
+
+.item1,
+.item2,
+.item3 {
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.item1,
+.item2,
+.item3,
+h1 {
+    color: white;
+}
+
+.items img {
+    height: 100px;
+}
+
+
+/* ================ Categorise Part End ================== */
+
+
+/* ================ Shoes Part Start ================== */
+
+.shoes_part {
+    padding-bottom: 70px;
+}
+
+.shoes_items {
+    padding-top: 25px;
+    margin-top: 15px;
+}
+
+.shoes_items .card {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 10px 20px;
+    border: none;
+}
+
+
+/* ================ Shoes Part End ================== */
+
+
+/* ================ Backpack Part Start ================== */
+
+.backpack_part {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.card-deck {
+    padding-top: 30px;
+}
+
+.card-deck .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+
+/* ================ Backpack Part End ================== */
+
+
+/* ================ Footer Part Start ================== */
+
+.footer_part {
+    padding-top: 50px;
+}
+
+.footer_content {
+    background-color: #fceae8;
+    border-radius: 10px;
+    padding: 70px 0px;
+    margin-bottom: 50px;
+}
+
+.footer_content input {
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px 70px 5px 15px;
+}
+
+.footer_content button {
+    margin-right: 180px;
+    margin-top: 5px;
+}
+
+
+/* ================ Footer Part End ================== */
